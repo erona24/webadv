@@ -1,0 +1,23 @@
+body{
+    background-color: brown;
+}
+
+h1{
+    background-color: black;
+   color: thistle;
+   margin: 40px;
+   margin-top: 60px;
+
+}
+p{
+    background-color:black;
+    padding: 20px 40px 50px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    font-size: 40px;
+}
