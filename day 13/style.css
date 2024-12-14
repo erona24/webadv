@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(13, 50, 61);
+}
+
+h1{
+    color: dodgerblue;
+     word-spacing: 50px;
+     letter-spacing: 40px;
+     font-size: 70px;
+}
+  /* p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 56px;
+    text-align: center;
+    
+} */
+h2{
+    text-decoration: overline;
+    color: darkgreen;
+    
+}
+h3{
+    text-decoration: line-through;
+    color: aquamarine;
+}
+h4{
+    text-decoration: underline;
+    color: hotpink;
+}
+.p1{
+    color: rgb(82, 8, 79);
+    text-align: center;
+    background-color: rgb(197, 90, 105);
+    
+}
+#p2{
+    font-style: normal;
+    color: crimson;
+    font font-weight: 100;
+}
+#p3{
+     font-style: italic;
+     color: rgb(40, 208, 238);
+     font-weight: 200;
+}
+#p4{
+    font-style: oblique;
+    color: yellow;
+     font-weight: 300;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: burlywood;
+}
+    
