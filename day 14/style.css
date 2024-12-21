@@ -1,0 +1,42 @@
+
+
+
+ul{
+    list-style-type: new lower-roman;
+    border: 3px solid blue;
+}
+ul li{
+    border-bottom: 3px solid purple;
+}
+
+ol{
+    background-color:rgb(141, 189, 190);
+    list-style-type: lower-greek;
+    /* padding: 8px;*/
+}
+ol li{
+    background-color: cadetblue;
+    padding: 15px;
+    margin-left: 35px;
+}
+td,th{
+    border: 3px solid rgb(185, 102, 71);
+    padding: 10px;
+}
+tbody tr :nth-child(odd){
+    background-color: rgb(219, 173, 130);
+}
+tbody tr :nth-child(even){
+    background-color: darkgoldenrod;
+}
+div{
+    overflow: scroll;
+    background-color: rgb(209, 163, 95);
+    width:200px ;
+    height: 200px;
+}
+table{
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+}
