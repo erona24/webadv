@@ -11,7 +11,7 @@ li{
 
 li a{
     display: block;
-    color: rgb(209, 195, 195);
+    color: white;
     text-align: center;
     padding: 13px 15px;
     text-decoration: none;
@@ -21,14 +21,14 @@ li a:hover:not(:active){
 
 }
 .active{
-    background-color: rgb(120, 87, 197);
+    background-color: rgb(178, 158, 224);
 }
 li ul{
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: blueviolet;
+    background-color: rgb(188, 151, 223);
     padding: 0;
     min-width: 160px;
 }
@@ -39,7 +39,7 @@ li ul li a{
     padding: 10px 16px;
 }
 li ul li a:hover{
-    background-color: beige;
+    background-color: white;
 }
 li:hover >ul{
     display: block;
