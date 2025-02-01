@@ -1,0 +1,35 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover{
+    border: 1px solid rgb(154, 161, 221);
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.sprite{
+    background: url("images/merge.jpg") no-repeat ;
+    /* background-repeat: no-repeat; */
+}
+
+.city1{
+    width:500px;
+    height: 450px;
+    display: inline-block;
+    background-position: 0 0;
+}
+.city2{
+    width: 500px;
+    height: 450px;
+    display: inline-block;
+    background-position: -500px 0;
+}
