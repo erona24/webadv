@@ -1,0 +1,61 @@
+a[href="https://shkolladigjitale.com/"]{
+    color: rgb(180, 0, 0);
+}
+p[class*="ds"]{
+    background: hotpink;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+p[class*="paragraph3"]{
+    background: hotpink;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+div[id~="ds"]{
+    background:palevioletred;
+    color: rgb(255, 253, 253);
+    padding: 24px;
+}
+div[id~="ds_div"]{
+    background: rgb(170, 132, 170);
+    color: black;
+    padding: 26px;
+}
+div[id~="div4"]{
+    background: black;
+    color: pink;
+    padding: 23px;
+}
+img[title^="beach1"] {
+    border: 5px solid rgb(23, 37, 46);
+}
+img[title^="beach2"]{
+    border: 5px solid purple;
+}
+img[title^="beach3"]{
+    border: 5px solid rgb(151, 59, 77);
+}
+img[title^="beach4"]{
+    border: 5px solid red;
+}
+h1[class |="heading-1"] {
+    background: lightgreen;
+    color: black;
+    padding: 25px;
+}
+h2[class |="heading_2"]{
+    background: lightseagreen;
+    color: white;
+    padding: 25px;
+}
+h3[class |="heading 3"]{
+    background: lightyellow;
+    color: black;
+    padding: 25px;
+}
+input[placeholder $="name"]{
+    border:2px solid red;
+}
+input[readonly]{
+    border: 2px solid lightsalmon;
+}
