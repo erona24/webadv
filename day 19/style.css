@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(247, 201, 208);
+}
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius:30%;
+    color: rgb(236, 207, 207);
+    background-color:lightcoral;
+    transform: translate(100px,50px);
+    padding: 11px;
+    font-family: cursive;
+}
+div#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius:7px;
+    color:rgb(199, 217, 230);
+    background-color:lightskyblue;
+    transform: rotate(65deg);
+    padding: 11px;
+    margin-top: 100px;
+    margin-left: 45px;
+    font-family: cursive;
+}
+div#scale{
+    width: 200px;
+    height: 200px;
+    border-radius:7px;
+    color:rgb(217, 248, 217);
+    background-color:lightgreen;
+    transform:scale(0.8 , 0.9);
+    padding: 11px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+div#scalex{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    color:black;
+    background-color:lightyellow;
+    transform:scaleX(2);
+    padding: 11px;
+    margin-left: 200px;
+    margin-bottom: 150px;
+    font-family: cursive;
+}
+div#scaley{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    color:rgb(226, 173, 224);
+    background-color:orchid;
+    transform:scaleY(2);
+    padding: 11px;
+    font-family: cursive;
+}
+div#skewx{
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+    color:rgb(226, 156, 131);
+    background-color:orangered;
+    transform:skewX(-40deg);
+    padding: 11px;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-family: cursive;
+}
+div#skewy{
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+    color:rgb(217, 190, 233);
+    background-color:rgb(153, 93, 153);
+    transform:skewY(40deg);
+    padding: 11px;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-family: cursive;
+}
+div#rotatex{
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+    color:rgb(255, 255, 255);
+    background-color:olive;
+    transform:rotateX(22deg);
+    padding: 11px;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-family: cursive;
+}
+div#rotatey{
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(128, 0, 96);
+    transform:rotateY(43deg);
+    padding: 11px;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-family: cursive;
+}
+div#rotatez{
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(133, 19, 4);
+    transform:rotateZ(55deg);
+    padding: 11px;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-family: cursive;
+}
+div#transition{
+    font-family: cursive;
+    width: 200px;
+    height: 200px;
+    background: plum;
+    transition: background 4s, border-radius 6s;
+    transition-timing-function:ease-in ;
+    transition-delay:2s; 
+}
+div#transition:hover{
+    background: lightseagreen;
+    border-radius: 40%;
+}
+div#transition2{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin-top: 50px;
+    transition: .3 ease-in-out;
+}
+div#transition2:hover{
+    background: rgb(78, 178, 32);
+    transform: scale(1.3);
+    filter:grayscale(0);
+}
