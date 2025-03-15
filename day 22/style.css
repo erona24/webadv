@@ -1,0 +1,35 @@
+/* @media(min-width:600px){
+    body{
+        background:lightyellow ;
+        color:lightpink;
+    }
+} */
+/* @media all and (min-width:600px){
+    body{
+        background:lightblue ;
+        color:lightpink;
+    }
+} */
+h1{
+    color:navy;
+    border: 3px solid rgb(176, 181, 226);
+    padding: 20px;
+}
+/* @media all and (orientation:landscape){
+  h1{
+    font-size: 80px;
+  }
+}
+@media all and (orientation:portrait){
+    h1{
+      font-size: 30px;
+    }
+} */
+@media(min-width:600px) and (min-width:900px){
+    img{
+        display: none;
+    }
+    p{
+        column-count: 3;
+    }
+}
