@@ -51,6 +51,12 @@ span{
 }
 .home img{
     border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.home img:hover{
+   filter:drop-shadow(0 0 5px orchid);
+    transform: scale(1.1);
 }
 .home-content .btn{
     text-decoration: none;
@@ -60,4 +66,10 @@ span{
     border-radius: 5px;
     padding: 15px 55px;
     margin-top: 15px;
+    transition: 0.5s ease;
+}
+.home-content .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color:orchid;
+    transform:scale(1.1);
 }
