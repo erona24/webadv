@@ -176,4 +176,68 @@ span{
     padding: 25px 0;
     margin-top: 25px;
  }
- 
+ @media (max-width: 750px){
+    .home-content{
+        padding: 100px;
+    }
+    .home-content img{
+        margin-left: 0px;
+    }
+    .home-content span{
+        font-size: 20px;
+    }
+    .home-content h1{
+        font-size: 20px;
+    }
+    .home-content .btn{
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+    .services{
+        padding: 50px;
+    }
+    .services h1{
+        font-size: 30px;
+    }
+    .services .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .services .services-box{
+        flex-direction: column;
+        text-align:center;
+    }
+    .services-box .services-content{
+        flex: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .contact{
+        padding: 50px;
+    }
+    .contact h1{
+        font-size:30px;
+    }
+    .contact form .input-box input{
+        font-size:15px ;
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .contact form .input-box textarea{
+        font-size: 15px;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .contact form .btn{
+        font-size: 15px;
+        padding:10px 30px;
+    }
+    .footer .copyright{
+        font-size: 15px;
+        padding: 10px 0;
+        margin-top:10px; 
+        margin-left: 20px;
+        margin-right:20px ;
+    }
+    
+ }
