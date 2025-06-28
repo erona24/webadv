@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(to right,#ffb6c1,#add8e6,#bebeeb);
+}
+#name-error{
+    visibility: hidden;
+    color: red;
+}
+#age-error{
+    visibility: hidden;
+    color: red;
+}
+
+#city-error{
+    visibility: hidden;
+    color: red;
+}
